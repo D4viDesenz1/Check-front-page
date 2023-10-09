@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Notícias</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <a class="navbar-brand" href="#">
+        <img src="img/BrasãoCo.png" alt="Logotipo" width="40">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+        </ul>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-primary my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+    </div>
+</nav>
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Notícia</li>
+    </ol>
+</nav>
+
+<div id="newsCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators"> 
+        <li data-target="#newsCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#newsCarousel" data-slide-to="1"></li>
+        <li data-target="#newsCarousel" data-slide-to="2"></li>
+        <li data-target="#newsCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/CAAAAASSIO.jfif" alt="Notícia 1" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Cássio Ramos</h1>
+                <h2>Cássio é o maior goleiro da história do Corinthians.</h2>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/2012.jpg" alt="Notícia 2" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Mundial de clubes</h1>
+                <h2>Maiores títulos da história do clube.</h2>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/torcida.jpg" alt="Notícia 3" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Fiel Torcida</h1>
+                <h2>A torcida mais apaixonada e volumosa do mundo.</h2>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/neoquimica.jpg" alt="Notícia 4" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Neo Química Arena</h1>
+                <h2>Palco dos jogos do Timão.</h2>
+            </div>
+        </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#newsCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#newsCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+    </a>
+</div>
+<section class="container mt-5">
+    <article class="row">
+        <div class="col-md-6">
+            <img src="img/BrasãoCo.png" alt="Imagem Descrição" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+            <p>O Sport Club Corinthians Paulista, mais conhecido simplesmente como Corinthians, é um dos clubes mais icônicos e populares do Brasil e do mundo. Fundado em 1910, na cidade de São Paulo, o Corinthians tem uma história rica e uma base de torcedores apaixonados que o tornam um dos times mais emblemáticos do futebol.
+                As cores preto e branco do Corinthians representam a raça e a garra de seus jogadores e torcedores. O estádio do clube, a Arena Corinthians, também conhecida como "Itaquerão", é um dos mais modernos do país e foi palco da abertura da Copa do Mundo de 2014. A atmosfera vibrante em dia de jogo é incomparável, com a torcida corintiana conhecida como "Fiel" fazendo um espetáculo à parte.
+                O Corinthians conquistou diversos títulos importantes ao longo de sua história, incluindo o Campeonato Brasileiro, a Copa Libertadores da América e o Mundial de Clubes da FIFA. Um dos momentos mais emblemáticos da história do clube foi a conquista da Libertadores em 2012 e o subsequente título mundial, que trouxe uma imensa alegria para a torcida.
+                Além dos títulos, o Corinthians também é conhecido por sua rivalidade com o Palmeiras, que protagoniza o famoso clássico conhecido como "Dérbi Paulista". Esses jogos são sempre muito aguardados e acirrados, criando uma atmosfera de competição feroz.
+            </p>
+        </div>
+    </article>
+</section>
+<footer class="bg-dark text-white pt-4 mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <h5>Links Rápidos</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Início</a></li>
+                    <li><a href="#" class="text-white">Sobre</a></li>
+                    <li><a href="#" class="text-white">Serviços</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 mb-4">
+                <h5>Redes Sociais</h5>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.facebook.com/corinthians/?locale=pt_BR" class="text-white" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/corinthians/" class="text-white" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/@corinthians" class="text-white" target="_blank">Youtube</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 mb-4">
+                <h5>Contato</h5>
+                <ul class="list-unstyled">
+                    <li><a href="mailto:corinthians@sccp.com.br?subject=Corinthians" class="text-white">E-mail</a></li>
+                    <li><a href="tel:+55112000-2012" class="text-white">Telefone</a></li>
+                    <li><a href="https://www.google.com/maps/place/Neo+Qu%C3%ADmica+Arena/@-23.5453085,-46.4768041,17z/data=!4m15!1m8!3m7!1s0x94ce66dec98fb855:0xf2b061ffbcd2ecf8!2sNeo+Qu%C3%ADmica+Arena!8m2!3d-23.5453134!4d-46.4742292!10e1!16s%2Fm%2F0czdxhf!3m5!1s0x94ce66dec98fb855:0xf2b061ffbcd2ecf8!8m2!3d-23.5453134!4d-46.4742292!16s%2Fm%2F0czdxhf?entry=ttu" class="text-white" target="_blank">Localização</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 mb-4">
+                <h5>Newletter</h5>
+                <p>E-mail para informações</p>
+                <form>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Digite seu e-mail">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+        <hr class="bg-white mb-2">
+        <div class="row d-flex justify-content-center">
+            <p>2023 - Davi Desenzi - Corinthians</p>
+        </div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
